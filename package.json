@@ -1,0 +1,10 @@
+{
+  "name": "gom-jabbar",
+  "version": "0.1.0",
+  "description": "The High-Handed Enemy",
+  "main": "src/app.js",
+  "repository": "https://github.com/paper-radio/gom-jabbar.git",
+  "author": "Alexander Adrian Guerra <alex@paper-rad.io>",
+  "license": "MIT",
+  "private": true
+}
