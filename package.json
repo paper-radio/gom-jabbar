@@ -9,8 +9,9 @@
     "private": true,
     "scripts": {
         "doc": "./node_modules/.bin/jsdoc src -d doc",
-        "start": "babel src --out-dir dist && node dist/app.js",
-        "transpile": "babel src --out-dir dist"
+        "start":
+            "./node_modules/.bin/babel src --out-dir dist && node dist/app.js",
+        "transpile": "./node_modules/.bin/babel src --out-dir dist"
     },
     "dependencies": {
         "babel-cli": "^6.26.0",
