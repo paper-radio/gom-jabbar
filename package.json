@@ -7,6 +7,10 @@
     "author": "Alexander Adrian Guerra <alex@paper-rad.io>",
     "license": "MIT",
     "private": true,
+    "scripts": {
+        "start": "babel src --out-dir dist && node dist/app.js",
+        "transpile": "babel src --out-dir dist"
+    },
     "dependencies": {
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.3",
