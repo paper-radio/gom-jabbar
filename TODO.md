@@ -3,4 +3,4 @@
 ## Setup
 
 - [ ] Testing
-- [ ] Debugging
+- [x] Debugging

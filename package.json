@@ -8,6 +8,7 @@
     "license": "MIT",
     "private": true,
     "scripts": {
+        "doc": "./node_modules/.bin/jsdoc src -d doc",
         "start": "babel src --out-dir dist && node dist/app.js",
         "transpile": "babel src --out-dir dist"
     },
@@ -15,5 +16,8 @@
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.3",
         "babel-preset-env": "^1.7.0"
+    },
+    "devDependencies": {
+        "jsdoc": "^3.5.5"
     }
 }
