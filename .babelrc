@@ -1,5 +1,5 @@
 {
-  "presets": ["es2015"],
-  "sourceMaps": true,
-  "retainLines": true
+    "presets": ["env"],
+    "sourceMaps": true,
+    "retainLines": true
 }

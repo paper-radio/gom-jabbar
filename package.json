@@ -6,5 +6,10 @@
     "repository": "https://github.com/paper-radio/gom-jabbar.git",
     "author": "Alexander Adrian Guerra <alex@paper-rad.io>",
     "license": "MIT",
-    "private": true
+    "private": true,
+    "dependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-preset-env": "^1.7.0"
+    }
 }
