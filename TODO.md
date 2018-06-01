@@ -1,1 +1,6 @@
 # TODO
+
+## Setup
+
+- [ ] Testing
+- [ ] Debugging
