@@ -3,3 +3,4 @@
 /.vscode
 /doc
 .DS_Store
+yarn-error.log
