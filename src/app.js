@@ -1,4 +1,4 @@
-/**
+/*
  * app.js
  *
  * The entrypoint to the application.
@@ -10,7 +10,7 @@
  * @param {any} name
  * @returns {string} snark
  */
-function whoIsADork(name) {
+function isADork(name) {
     if (name === "alex") {
         return "Yes, Alex is a dork.";
     }
