@@ -2,5 +2,6 @@
 
 ## Setup
 
-- [ ] Testing
+- [x] Testing
 - [x] Debugging
+- [ ] Editor configuration
