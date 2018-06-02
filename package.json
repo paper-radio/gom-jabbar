@@ -11,6 +11,7 @@
         "doc": "./node_modules/.bin/jsdoc src -d doc",
         "start":
             "./node_modules/.bin/babel src --out-dir dist && node dist/app.js",
+        "test": "./node_modules/.bin/jest",
         "transpile": "./node_modules/.bin/babel src --out-dir dist"
     },
     "dependencies": {
@@ -19,6 +20,9 @@
         "babel-preset-env": "^1.7.0"
     },
     "devDependencies": {
-        "jsdoc": "^3.5.5"
+        "babel-jest": "^23.0.1",
+        "jest": "^23.1.0",
+        "jsdoc": "^3.5.5",
+        "regenerator-runtime": "^0.11.1"
     }
 }
