@@ -10,7 +10,13 @@
 
 ## Actions
 
-Actions are **objects** that describe which operation the reducer has to perform. Actions are simple objects. At the bare minimum they must contain at least one property called `type`. The type property is essentially the name of the reducer that will be called to transform the application state.
+Actions are **objects** that describe which operation the reducer has to perform. Actions are simple objects. At the bare minimum they must contain at least one property called `type`. The type property is essentially the name of the reducer that will be called to transform the application state. Actions can optionally contain a property called payload. Payload can deliver optional data to the reducer.
+
+### Take Away
+
+1 Actions are objects
+2 Actions must contain a type
+3 They can also contain a payload
 
 ## Action Creators
 
