@@ -1,3 +1,7 @@
 # Testing
 
+## Mindset
+
+## Tooling
+
 ## Links
