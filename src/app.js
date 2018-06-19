@@ -5,6 +5,8 @@
  * This branch is for learning functional programming.
  */
 
-console.log("Start");
+console.log("\n\n---Start---\n\n");
 
-console.log("Fin");
+console.log("\n\n---Fin---\n\n");
+
+debugger;
