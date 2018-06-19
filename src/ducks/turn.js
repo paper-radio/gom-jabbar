@@ -3,17 +3,33 @@
  */
 
 export const types = {
-    START_TURN: "START_TURN",
-    END_TURN: "END_TURN",
-    CALCULATE_SCORE: "CALCULATE_SCORE",
-    ROLL_HAND: "ROLL_HAND"
+    START_TURN: "START_TURN"
 };
 
 /**
  * The default state of a turn.
  */
 const DEFAULT_STATE = {
-    player: null,
-    turnNumber: 1,
-    rolls: []
+    turnNumber: 0
+};
+
+export function reducer(state = DEFAULT_STATE, action) {
+    switch (action.type) {
+        case types.START_TURN:
+            return {
+                turnNumber: [...state, action.payload]
+            };
+
+        default:
+            return state;
+    }
+}
+
+export const actions = {
+    startTurn(turnNumber) {
+        return {
+            type: types.START_TURN,
+            payload: turnNumber
+        };
+    }
 };

@@ -5,4 +5,9 @@ describe("addPlayer()", function() {
         const action = actions.addPlayer("John");
         expect(action.type).toEqual(types.ADD_PLAYER);
     });
+
+    it("should have the name in the action payload", function() {
+        const action = actions.addPlayer("Jordan");
+        expect(action.payload).toEqual("Jordan");
+    });
 });
