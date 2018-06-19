@@ -9,15 +9,15 @@
     "private": true,
     "scripts": {
         "doc": "./node_modules/.bin/jsdoc src -d doc",
-        "start":
-            "./node_modules/.bin/babel src --out-dir dist && node dist/app.js",
+        "start": "./node_modules/.bin/babel src --out-dir dist && node dist/app.js",
         "test": "./node_modules/.bin/jest",
         "transpile": "./node_modules/.bin/babel src --out-dir dist"
     },
     "dependencies": {
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.3",
-        "babel-preset-env": "^1.7.0"
+        "babel-preset-env": "^1.7.0",
+        "redux": "^4.0.0"
     },
     "devDependencies": {
         "babel-jest": "^23.0.1",
