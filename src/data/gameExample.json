@@ -1,0 +1,189 @@
+{
+  "players": [
+    {
+      "name": "Alex",
+      "score": [
+        1050
+      ],
+      "battleCry": "Dang Yo!"
+    },
+    {
+      "name": "Jordan",
+      "score": 900,
+      "battleCry": "Yahhooo"
+    },
+    {
+      "name": "Gabe",
+      "score": 0,
+      "battleCry": "Sweet potatos!"
+    },
+    {
+      "name": "Mom",
+      "score": 550,
+      "battleCry": "Yoga Bomb!"
+    },
+    {
+      "name": "Dad",
+      "score": 700,
+      "battleCry": "Frak yah!"
+    }
+  ],
+  "game": {
+    "active": true,
+    "winner": null,
+    "turns": [
+      {
+        "playerName": "Alex",
+        "turnNumber": 1,
+        "rolls": [
+          {
+            "deadRoll": false,
+            "rawValues": [
+              1,
+              1,
+              1,
+              2,
+              6
+            ],
+            "points": 1000,
+            "rolling": [
+              2,
+              6
+            ],
+            "bank": [
+              1,
+              1,
+              1
+            ],
+            "stopAndKeep": false,
+            "combinations": {
+              "fives": 0,
+              "ones": 0,
+              "triples": 1,
+              "straight": false,
+              "fiveOnes": false
+            }
+          },
+          {
+            "deadRoll": false,
+            "rawValues": [
+              1,
+              1,
+              1,
+              4,
+              5
+            ],
+            "points": 1050,
+            "rolling": [
+              4
+            ],
+            "bank": [
+              1,
+              1,
+              1,
+              5
+            ],
+            "stopAndKeep": true,
+            "combinations": {
+              "fives": 1,
+              "ones": 0,
+              "triples": 0,
+              "straight": false,
+              "fiveOnes": false
+            }
+          }
+        ]
+      },
+      {
+        "playerName": "Jordan",
+        "turnNumber": 2,
+        "rolls": [
+          {
+            "deadRoll": false,
+            "rawValues": [
+              1,
+              1,
+              4,
+              4,
+              6
+            ],
+            "points": 200,
+            "rolling": [
+              1,
+              4,
+              4,
+              6
+            ],
+            "bank": [
+              1
+            ],
+            "stopAndKeep": false,
+            "combinations": {
+              "fives": 0,
+              "ones": 1,
+              "triples": 0,
+              "straight": false,
+              "fiveOnes": false
+            }
+          },
+          {
+            "deadRoll": false,
+            "rawValues": [
+              1,
+              1,
+              3,
+              4,
+              6
+            ],
+            "points": 1050,
+            "rolling": [
+              3,
+              4,
+              6
+            ],
+            "bank": [
+              1,
+              1
+            ],
+            "stopAndKeep": false,
+            "combinations": {
+              "fives": 0,
+              "ones": 2,
+              "triples": 0,
+              "straight": false,
+              "fiveOnes": false
+            }
+          },
+          {
+            "deadRoll": false,
+            "rawValues": [
+              1,
+              1,
+              1,
+              4,
+              6
+            ],
+            "points": 300,
+            "rolling": [
+              4,
+              6
+            ],
+            "bank": [
+              1,
+              1,
+              1
+            ],
+            "stopAndKeep": true,
+            "combinations": {
+              "fives": 0,
+              "ones": 3,
+              "triples": 0,
+              "straight": false,
+              "fiveOnes": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
