@@ -2,9 +2,7 @@
   "players": [
     {
       "name": "Alex",
-      "score": [
-        1050
-      ],
+      "score": 1050,
       "battleCry": "Dang Yo!"
     },
     {
